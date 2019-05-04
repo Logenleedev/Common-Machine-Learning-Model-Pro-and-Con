@@ -1,6 +1,6 @@
 Classification Model Pros and Cons (Generalized)
 
-* Logistic Regression
+* Logistic Regression (continuous value)
 	* Pros
 		* low variance
 		* provides probabilities for outcomes
@@ -8,7 +8,7 @@ Classification Model Pros and Cons (Generalized)
 		* NOTE: logistic regression can also be used with kernel methods
 	* Cons
 		* high bias
-* Decision Trees
+* Decision Trees (labeled data)
 	* Regular (not bagged or boosted)
 		* Pros
 			* easy to interpret visually when the trees only
@@ -53,8 +53,13 @@ Classification Model Pros and Cons (Generalized)
 		* Handle high dimensional data well
 	* Cons
 		* Susceptible to overfitting/training issues depending on kernel
-* Neural Network (This section needs further information based on 
-	different types of NN's)
+* KNN(numerial data)
+	* Pros
+	        * K-NN has no assumptions: K-NN is a non-parametric algorithm which means there are assumptions to be met to implement K-NN. Parametric models like linear regression has lots of assumptions to be met by data before it can be implemented which is not the case with K-NN.
+		* It constantly evolves: Given it’s an instance-based learning; k-NN is a memory-based approach. The classifier immediately adapts as we collect new training data. It allows the algorithm to respond quickly to changes in the input during real-time use.
+	* Cons
+		* K-NN slow algorithm: K-NN might be very easy to implement but as dataset grows efficiency or speed of algorithm declines very fast.
+		* Outlier sensitivity: K-NN algorithm is very sensitive to outliers as it simply chose the neighbors based on distance criteria.
 * Naive Bayes
 	* Pros
 		* Computationally fast
