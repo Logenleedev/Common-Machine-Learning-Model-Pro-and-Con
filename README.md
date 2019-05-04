@@ -65,6 +65,7 @@ Classification Model Pros and Cons (Generalized)
 		* Computationally fast
 		* Simple to implement
 		* Works well with high dimensions
+		* 在数据较少的情况下仍然有效，可以处理多类别问题。
 	* Cons
 		* Relies on independence assumption and will perform 
 			badly if this assumption is not met
