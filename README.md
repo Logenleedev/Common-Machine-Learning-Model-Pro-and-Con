@@ -8,15 +8,13 @@ Classification Model Pros and Cons (Generalized)
 		* NOTE: logistic regression can also be used with kernel methods
 	* Cons
 		* high bias
-* Polynomial Regression
+* Linear Regression
   	* Pros
-		* Polynomial provides the best approximation of the relationship between the dependent and independent variable.
-		* A Broad range of function can be fit under it.
-		* Polynomial basically fits a wide range of curvature.
+		* Linear regression is an extremely simple method. It is very easy and intuitive to use and understand. A person with only the knowledge of high school mathematics can understand and use it. In addition, it works in most of the cases. Even when it doesn’t fit the data exactly, we can use it to find the nature of the relationship between the two variables.
 	* Cons
-		* The presence of one or two outliers in the data can seriously affect the results of the nonlinear analysis.
-		* These are too sensitive to the outliers.
-		* In addition, there are unfortunately fewer model validation tools for the detection of outliers in nonlinear regression than there are for linear regression.
+		* By its definition, linear regression only models relationships between dependent and independent variables that are linear. It assumes there is a straight-line relationship between them which is incorrect sometimes. Linear regression is very sensitive to the anomalies in the data (or outliers).
+		* Take for example most of your data lies in the range 0-10. If due to any reason only one of the data item comes out of the range, say for example 15, this significantly influences the regression coefficients.
+		* Another disadvantage is that if we have a number of parameters than the number of samples available then the model starts to model the noise rather than the relationship between the variables.
 * Decision Trees (labeled data)
 	* Regular (not bagged or boosted)
 		* Pros
