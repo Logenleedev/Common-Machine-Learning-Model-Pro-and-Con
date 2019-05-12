@@ -1,5 +1,10 @@
 Classification Model Pros and Cons (Generalized)
 
+* SVM
+	* Pros 
+		* Flexible
+	* Cons
+		* Too Slow!!
 * Logistic Regression (continuous value)
 	* Pros
 		* low variance
