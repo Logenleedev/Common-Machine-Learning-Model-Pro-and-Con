@@ -1,5 +1,18 @@
 Classification Model Pros and Cons (Generalized)
 
+* Random Forest
+	* Pros
+		* As we mentioned earlier a single decision tree tends to overfit the data. The process of averaging or combining the results of different decision trees helps to overcome the problem of overfitting.
+		* Random forests also have less variance than a single decision tree. It means that it works correctly for a large range of data items than single decision trees.
+		* Random forests are extremely flexible and have very high accuracy.
+		* They also do not require preparation of the input data. You do not have to scale the data.
+		* It also maintains accuracy even when a large proportion of the data are missing.
+	* Cons
+		*The main disadvantage of Random forests is their complexity. 
+		*They are much harder and time-consuming to construct than decision trees.They also require more computational resources and are also less intuitive. When you have a large collection of decision trees it is hard to have an intuitive grasp of the relationship existing in the input data.
+		* In addition, the prediction process using random forests is time-consuming than other algorithms.
+		
+
 * SVM
 	* Pros 
 		* Flexible
